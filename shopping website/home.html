@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>login</title>
+</head>
+<style type="text/css">
+   div{
+   width: 500px;
+   height: 500px;
+   border: 1px solid red;
+   margin:0 auto;
+   padding: 150px;
+   box-sizing: border-box;
+      background-color: #ff2
+   }
+   
+   </style>
+
+
+
+
+<body>
+   <center><h1>Wel Come To Your E-Commerce Website Login Page</h1></center>
+   <hr>
+   
+   <div>
+   username:<br>
+   <input type="text" name="text" id="username">
+   <br><br>
+   
+   password:<br>
+   <input type="password" name="text" id="password">
+   <br><br>
+   
+   <button onclick="login()">Submit</button>
+   
+   </div>
+<script type="text/javascript">
+
+  function login()
+  {
+    var uname=document.getElementById('username').value;
+	var pass=document.getElementById('password').value;
+	
+	 if (uname=="Gouravsaini0976@gmail.com" && pass=="Abcd@123")
+	 {
+	 location.assign("file:///C:/Users/gourav%20saini/Desktop/shopping%20website/web1.html")
+	 }
+	else
+	{
+	window.alert("login failed");
+	}
+	}
+	
+</script>	
+</body>
+</html>
+   
